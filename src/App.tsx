@@ -1,8 +1,13 @@
+import React from 'react';
+import MainPage from './pages/MainPage';
+
 function App() {
   return (
-    <div/>
+    <>
+      <MainPage />
+    </>
   )
 }
- 
 
-export default App
+
+export default App;
