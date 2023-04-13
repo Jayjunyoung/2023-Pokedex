@@ -16,6 +16,13 @@
 - 웹 vscode 링크 : https://github.dev/Google-Developer-Student-Clubs-TUK/2023-01-React-Study-Pokedex
 
 ## 기술 스택
+1. react.js
+2. typescript, javascript
+3. framer motion
+4. styled-components
+5. react-query
+6. drag and drop
+7. recoil
 
 ## 폴더 구조
 
