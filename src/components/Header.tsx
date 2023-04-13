@@ -13,16 +13,16 @@ const Nav = styled(motion.nav)`
     width: 100%;
     top: 0;
     font-size: 14px;
-    padding: 20px 60px;
+    padding: 0px 60px;
     color: white;
-    z-index: 1;
+    z-index: 10;
 `;
 
 
 const Logo = styled(motion.svg)`
     margin-right: 50px;
     width: 95px;
-    height: 100px;
+    height: 140px;
     margin-left: 50px;
     fill: yellow;
     path {
