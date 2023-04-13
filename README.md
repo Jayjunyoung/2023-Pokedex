@@ -22,6 +22,7 @@
 4. styled-components
 5. react-query
 6. drag and drop
+7. recoil
 
 ## 폴더 구조
 
