@@ -4,13 +4,15 @@ import styled from "styled-components";
 import Header from '../components/Header';
 
 const Wrapper = styled.div`
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(59 130 246 / 0.5);
     z-index: -10;
 `;
 
-export function MainPage() {
+export default function MainPage() {
 
     return (
         <Wrapper>
@@ -20,5 +22,3 @@ export function MainPage() {
 
 }
 
-
-export default MainPage;

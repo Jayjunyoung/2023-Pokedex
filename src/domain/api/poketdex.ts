@@ -1,0 +1,1 @@
+const BASE_PATH = "https://pokeapi.co/api/v2"; //리액트 기본사이트 경로
