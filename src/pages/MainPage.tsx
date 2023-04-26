@@ -12,6 +12,7 @@ const Wrapper = styled.div`
     z-index: -10;
 `;
 
+//MainPage에서 사이트를 불러오는 역할을 함
 export default function MainPage() {
 
     return (
