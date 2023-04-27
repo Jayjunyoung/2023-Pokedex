@@ -18,7 +18,7 @@ const useCount = () => {
     }
 
     return {
-        currentNumber : count,
+        currentNumber : count, //넘겨줄 기본 count
         previousButton,
         nextButton
     }

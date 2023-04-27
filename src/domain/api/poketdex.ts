@@ -1,13 +1,12 @@
-import type { Stat, Type, PokemonInfo , PokemonList} from '../types';
-
-
 const BASE_PATH = "https://pokeapi.co/api/v2/pokemon"; //리액트 기본사이트 경로
 
+import { PokemonInfo } from '../types'; //타입지정을 위해 가져옴
 
-export const getPocketBasicInfo = (pocketmonId : string) => {
 
-    return fetch(`${BASE_PATH}/id=${pocketmonId}`).then(
-        (response) => response.json()
-    );
+export async function getPocketBasicInfo(pocketmonId : string)  {
 
+    const response = await fetch(`${BASE_PATH}/${pocketmonId}`);
+    const data: PokemonInfo = await response.json();
+
+    return data;
 }
